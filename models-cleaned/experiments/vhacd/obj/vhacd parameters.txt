@@ -1,0 +1,47 @@
+sofa
+TestVHACD .\obj\6d0cd48b18471a8bf1444eeb21e761c6.obj -r 10000000 -h 128 -p true -e 0.01 -d 10
+
+----------------
+chair
+TestVHACD .\obj\17b77403b80de623f1783a44a88d6274.obj -r 10000000 -h 128 -p true -e 0.01 -d 15
+
+---------------------
+table
+TestVHACD .\obj\17f4b14ebbe37179ab2b7e9ed9191486.obj -r 10000000 -h 128 -p true -e 0.01 -d 15
+
+---------------------
+shelf
+TestVHACD .\obj\289fddae5c4a03ac4798047bd8979829.obj -r 10000000 -h 128 -p true -e 0.01 -d 15
+
+----------------------
+Cup
+TestVHACD .\obj\b6f30c63c946c286cf6897d8875cfd5e.obj -r 10000000 -h 128 -p true -e 0.001 -d 15
+
+----------------------
+Lamp
+TestVHACD .\obj\1b4562d33da93f84cf004563556ddb36.obj -r 10000000 -h 128 -p true -e 0.001 -d 15
+
+------------------------
+Vase
+TestVHACD .\obj\4835bb37072cb5dafc23d64476f7d890.obj -r 10000000 -h 128 -p true -e 0.01 -d 15
+
+--------------------------
+Bed
+TestVHACD .\obj\2c0873b833f1900aac3aaaa1c95b6d6.obj -r 10000000 -h 128 -p true -e 0.01 -d 15
+
+--------------------------
+Monitor
+TestVHACD .\obj\1f24552c89b7b171a7b307ff2d7f15c4.obj -r 10000000 -h 128 -p true -e 0.01 -d 15
+
+--------------------------
+Bottle
+TestVHACD .\obj\114509277e76e413c8724d5673a063a6.obj -r 10000000 -h 128 -p false -e 0.001 -d 15
+
+------------------------------
+cabinet
+TestVHACD .\obj\36223972cc8153718cd9445de76e734d.obj -r 10000000 -h 128 -p true -e 0.01 -d 15
+
+------------------------------
+lamp2
+TestVHACD .\obj\6068920e350f1fcef04bb0474a98ba2b.obj -r 10000000 -h 128 -p true -e 0.01 -d 15
+

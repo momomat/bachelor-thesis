@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<robot name="../obj/lamp.urdf">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.0011 0.002 0.0575"/>
+       <mass value="50"/>
+       <inertia ixx="8.92004524538395e-06" ixy="2.0707133592283134e-08" ixz="-1.8402974591021881e-07" iyy="8.92554545214849e-06" iyz="2.631056266457892e-07" izz="3.3063177081754754e-06"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.0011 0.002 0.0575"/>
+      <geometry>
+        <mesh filename="../obj/lamp_vhacd.obj" 
+		scale="5.0 5.0 5.0"/>
+      </geometry>
+     <material name="grey">
+      <color rgba="0.32 0.33 0.36 1"/>
+     </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.0011 0.002 0.0575"/>
+      <geometry>
+        <mesh filename="../obj/lamp_vhacd.obj" scale="5.0 5.0 5.0"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+        

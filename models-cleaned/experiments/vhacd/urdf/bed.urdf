@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<robot name="../obj/bed.urdf">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.0006 0.0059 -0.0127"/>
+       <mass value="50"/>
+       <inertia ixx="5.554600096114597e-07" ixy="-2.1113123916912654e-09" ixz="3.268838166410483e-10" iyy="2.6825401185982677e-07" iyz="-1.8537902803710622e-08" izz="7.712599913937959e-07"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.0006 0.0059 -0.0127"/>
+      <geometry>
+        <mesh filename="../obj/bed_vhacd.obj" 
+		scale="18.0 18.0 18.0"/>
+      </geometry>
+     <material name="grey">
+      <color rgba="0.32 0.33 0.36 1"/>
+     </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.0006 0.0059 -0.0127"/>
+      <geometry>
+        <mesh filename="../obj/bed_vhacd.obj" scale="18.0 18.0 18.0"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+        

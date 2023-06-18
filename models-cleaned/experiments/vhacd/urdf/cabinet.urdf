@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<robot name="../urdf/cabinet.urdf">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.0001 -0.0004 -0.0005"/>
+       <mass value="50"/>
+       <inertia ixx="4.4948499263142223e-08" ixy="-1.1135370310461391e-11" ixz="-2.223543654973939e-10" iyy="5.625716814709597e-08" iyz="-2.487398634015348e-10" izz="1.431659237992949e-08"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.0001 -0.0004 -0.0005"/>
+      <geometry>
+        <mesh filename="../obj/cabinet.obj" 
+		scale="25.0 25.0 25.0"/>
+      </geometry>
+     <material name="grey">
+      <color rgba="0.32 0.33 0.36 1"/>
+     </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.0001 -0.0004 -0.0005"/>
+      <geometry>
+        <mesh filename="../obj/cabinet.obj" scale="25.0 25.0 25.0"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+        

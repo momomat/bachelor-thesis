@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<robot name="../obj/chair.urdf">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.0003 0.0195 0.0075"/>
+       <mass value="50"/>
+       <inertia ixx="0.00011847966176060705" ixy="-4.0447268700633684e-07" ixz="1.1338914719686175e-07" iyy="0.00011657989890476369" iyz="-1.788860351969175e-05" izz="0.00016338416682970641"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.0003 0.0195 0.0075"/>
+      <geometry>
+        <mesh filename="../obj/chair_vhacd.obj" 
+		scale="4.0 4.0 4.0"/>
+      </geometry>
+     <material name="grey">
+      <color rgba="0.32 0.33 0.36 1"/>
+     </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.0003 0.0195 0.0075"/>
+      <geometry>
+        <mesh filename="../obj/chair_vhacd.obj" scale="4.0 4.0 4.0"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+        

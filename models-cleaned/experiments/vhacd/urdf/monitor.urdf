@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<robot name="../obj/monitor.urdf">
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.0013 0.0104 -0.0213"/>
+       <mass value="50"/>
+       <inertia ixx="6.262309371403413e-05" ixy="-2.035528652020364e-08" ixz="3.1281589145618155e-07" iyy="0.00018424000534481897" iyz="-4.0229510558928217e-07" izz="0.0001238964807307406"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.0013 0.0104 -0.0213"/>
+      <geometry>
+        <mesh filename="../obj/monitor_vhacd.obj" 
+		scale="3.0 3.0 3.0"/>
+      </geometry>
+     <material name="grey">
+      <color rgba="0.32 0.33 0.36 1"/>
+     </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.0013 0.0104 -0.0213"/>
+      <geometry>
+        <mesh filename="../obj/monitor_vhacd.obj" scale="3.0 3.0 3.0"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+        
